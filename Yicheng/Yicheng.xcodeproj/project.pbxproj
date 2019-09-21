@@ -1,0 +1,914 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E17ADD5DC71150EA2E9CD4B /* Pods_Yicheng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A63592CF46A8C803C824A5 /* Pods_Yicheng.framework */; };
+		E305E09A223CE3430095AAF3 /* WYPOI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E305E099223CE3430095AAF3 /* WYPOI.swift */; };
+		E305E09C223D4E020095AAF3 /* WYUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E305E09B223D4E020095AAF3 /* WYUserManager.swift */; };
+		E305E09E223D4E100095AAF3 /* WYUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E305E09D223D4E100095AAF3 /* WYUser.swift */; };
+		E305E0A3223DDF3A0095AAF3 /* ZWHUDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E305E0A2223DDF3A0095AAF3 /* ZWHUDTool.m */; };
+		E305E0A8223E355B0095AAF3 /* MyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E305E0A7223E355B0095AAF3 /* MyService.swift */; };
+		E305E0AA22413A230095AAF3 /* WYTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E305E0A922413A230095AAF3 /* WYTabBar.swift */; };
+		E305E0AD224285FE0095AAF3 /* WYWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E305E0AC224285FE0095AAF3 /* WYWalletViewController.swift */; };
+		E322A516223A9B1D00CEFF68 /* KeyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E322A515223A9B1D00CEFF68 /* KeyFile.swift */; };
+		E382735222253806007273EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382735122253806007273EF /* AppDelegate.swift */; };
+		E382735422253806007273EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382735322253806007273EF /* ViewController.swift */; };
+		E382735722253806007273EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E382735522253806007273EF /* Main.storyboard */; };
+		E382735922253808007273EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E382735822253808007273EF /* Assets.xcassets */; };
+		E382735C22253808007273EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E382735A22253808007273EF /* LaunchScreen.storyboard */; };
+		E382736722253808007273EF /* YichengTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382736622253808007273EF /* YichengTests.swift */; };
+		E382737222253808007273EF /* YichengUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382737122253808007273EF /* YichengUITests.swift */; };
+		E38273832229692B007273EF /* WYCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38273812229692B007273EF /* WYCollectionViewCell.swift */; };
+		E38273842229692B007273EF /* WYCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38273822229692B007273EF /* WYCollectionViewCell.xib */; };
+		E389959E222A404200B830E0 /* WYCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E389959D222A404200B830E0 /* WYCollectionViewController.swift */; };
+		E38995A0222A458500B830E0 /* WYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E389959F222A458500B830E0 /* WYTabBarController.swift */; };
+		E38995A6222AA7C500B830E0 /* WYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38995A5222AA7C500B830E0 /* WYHomeViewController.swift */; };
+		E38995A8222AA7D600B830E0 /* WYTranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38995A7222AA7D600B830E0 /* WYTranslateViewController.swift */; };
+		E38995AC222AA83A00B830E0 /* WYMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38995AB222AA83A00B830E0 /* WYMineViewController.swift */; };
+		E38995AE222AB96000B830E0 /* WYEmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38995AD222AB96000B830E0 /* WYEmptyViewController.swift */; };
+		E38995B7222E94F200B830E0 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38995B6222E94F200B830E0 /* Mine.storyboard */; };
+		E38995B9222FDBB700B830E0 /* WYMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38995B8222FDBB700B830E0 /* WYMineHeaderView.swift */; };
+		E38995BB222FDBCC00B830E0 /* WYMineHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38995BA222FDBCC00B830E0 /* WYMineHeaderView.xib */; };
+		E3A88DC722355157005A0875 /* WYLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A88DC622355157005A0875 /* WYLoginViewController.swift */; };
+		E3A88DCD2236236B005A0875 /* WYCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A88DCC2236236B005A0875 /* WYCustomTextField.swift */; };
+		E3A88DDA22395936005A0875 /* ZWNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A88DD922395936005A0875 /* ZWNetworkingManager.m */; };
+		E3A88DE4223A253F005A0875 /* ZWAPIRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A88DE3223A253F005A0875 /* ZWAPIRequestTool.m */; };
+		E3DD8996224503CA0085102E /* WYFeedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD8995224503CA0085102E /* WYFeedBackViewController.swift */; };
+		E3DD899A2245155E0085102E /* WYRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD89992245155E0085102E /* WYRouteViewController.swift */; };
+		E3DD899C2245157F0085102E /* WYRouteViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3DD899B2245157F0085102E /* WYRouteViewCell.xib */; };
+		E3DD899E22451D320085102E /* WYRouteViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD899D22451D310085102E /* WYRouteViewCell.swift */; };
+		E3DD89A022468E650085102E /* WYDetailPoiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD899F22468E650085102E /* WYDetailPoiView.swift */; };
+		E3DD89A222468E7D0085102E /* WYDetailPoiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3DD89A122468E7D0085102E /* WYDetailPoiView.xib */; };
+		E3DD89A822476B9D0085102E /* WYCustomCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD89A722476B9C0085102E /* WYCustomCameraViewController.swift */; };
+		E3DD89AE2248BECD0085102E /* WYTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD89AD2248BECD0085102E /* WYTool.swift */; };
+		E3DD89B02248C7F70085102E /* WYLikeListiewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD89AF2248C7F70085102E /* WYLikeListiewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E382736322253808007273EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E382734622253806007273EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E382734D22253806007273EF;
+			remoteInfo = Yicheng;
+		};
+		E382736E22253808007273EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E382734622253806007273EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E382734D22253806007273EF;
+			remoteInfo = Yicheng;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62EE581C3F776E0491203878 /* Pods_YichengUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YichengUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FFDDB2DC2254A7542B568E /* Pods-Yicheng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yicheng.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yicheng/Pods-Yicheng.debug.xcconfig"; sourceTree = "<group>"; };
+		D180CA007DA5E0F327593146 /* Pods-Yicheng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yicheng.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yicheng/Pods-Yicheng.release.xcconfig"; sourceTree = "<group>"; };
+		E305E099223CE3430095AAF3 /* WYPOI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPOI.swift; sourceTree = "<group>"; };
+		E305E09B223D4E020095AAF3 /* WYUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYUserManager.swift; sourceTree = "<group>"; };
+		E305E09D223D4E100095AAF3 /* WYUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYUser.swift; sourceTree = "<group>"; };
+		E305E0A1223DDF3A0095AAF3 /* ZWHUDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWHUDTool.h; sourceTree = "<group>"; };
+		E305E0A2223DDF3A0095AAF3 /* ZWHUDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWHUDTool.m; sourceTree = "<group>"; };
+		E305E0A7223E355B0095AAF3 /* MyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyService.swift; sourceTree = "<group>"; };
+		E305E0A922413A230095AAF3 /* WYTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYTabBar.swift; sourceTree = "<group>"; };
+		E305E0AC224285FE0095AAF3 /* WYWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYWalletViewController.swift; sourceTree = "<group>"; };
+		E322A515223A9B1D00CEFF68 /* KeyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFile.swift; sourceTree = "<group>"; };
+		E382734E22253806007273EF /* Yicheng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yicheng.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E382735122253806007273EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E382735322253806007273EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E382735622253806007273EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E382735822253808007273EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E382735B22253808007273EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E382735D22253808007273EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E382736222253808007273EF /* YichengTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YichengTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E382736622253808007273EF /* YichengTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YichengTests.swift; sourceTree = "<group>"; };
+		E382736822253808007273EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E382736D22253808007273EF /* YichengUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YichengUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E382737122253808007273EF /* YichengUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YichengUITests.swift; sourceTree = "<group>"; };
+		E382737322253808007273EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E38273812229692B007273EF /* WYCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCollectionViewCell.swift; sourceTree = "<group>"; };
+		E38273822229692B007273EF /* WYCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WYCollectionViewCell.xib; sourceTree = "<group>"; };
+		E389959D222A404200B830E0 /* WYCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCollectionViewController.swift; sourceTree = "<group>"; };
+		E389959F222A458500B830E0 /* WYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYTabBarController.swift; sourceTree = "<group>"; };
+		E38995A5222AA7C500B830E0 /* WYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYHomeViewController.swift; sourceTree = "<group>"; };
+		E38995A7222AA7D600B830E0 /* WYTranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYTranslateViewController.swift; sourceTree = "<group>"; };
+		E38995AB222AA83A00B830E0 /* WYMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYMineViewController.swift; sourceTree = "<group>"; };
+		E38995AD222AB96000B830E0 /* WYEmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYEmptyViewController.swift; sourceTree = "<group>"; };
+		E38995B6222E94F200B830E0 /* Mine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		E38995B8222FDBB700B830E0 /* WYMineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYMineHeaderView.swift; sourceTree = "<group>"; };
+		E38995BA222FDBCC00B830E0 /* WYMineHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WYMineHeaderView.xib; sourceTree = "<group>"; };
+		E3A88DC622355157005A0875 /* WYLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYLoginViewController.swift; sourceTree = "<group>"; };
+		E3A88DCC2236236B005A0875 /* WYCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCustomTextField.swift; sourceTree = "<group>"; };
+		E3A88DD82239592D005A0875 /* ZWNetworkingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWNetworkingManager.h; sourceTree = "<group>"; };
+		E3A88DD922395936005A0875 /* ZWNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWNetworkingManager.m; sourceTree = "<group>"; };
+		E3A88DE122395F0F005A0875 /* Yicheng-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yicheng-Bridging-Header.h"; sourceTree = "<group>"; };
+		E3A88DE2223A2530005A0875 /* ZWAPIRequestTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWAPIRequestTool.h; sourceTree = "<group>"; };
+		E3A88DE3223A253F005A0875 /* ZWAPIRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAPIRequestTool.m; sourceTree = "<group>"; };
+		E3DD8995224503CA0085102E /* WYFeedBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYFeedBackViewController.swift; sourceTree = "<group>"; };
+		E3DD89992245155E0085102E /* WYRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYRouteViewController.swift; sourceTree = "<group>"; };
+		E3DD899B2245157F0085102E /* WYRouteViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WYRouteViewCell.xib; sourceTree = "<group>"; };
+		E3DD899D22451D310085102E /* WYRouteViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYRouteViewCell.swift; sourceTree = "<group>"; };
+		E3DD899F22468E650085102E /* WYDetailPoiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYDetailPoiView.swift; sourceTree = "<group>"; };
+		E3DD89A122468E7D0085102E /* WYDetailPoiView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WYDetailPoiView.xib; sourceTree = "<group>"; };
+		E3DD89A722476B9C0085102E /* WYCustomCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYCustomCameraViewController.swift; sourceTree = "<group>"; };
+		E3DD89AD2248BECD0085102E /* WYTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYTool.swift; sourceTree = "<group>"; };
+		E3DD89AF2248C7F70085102E /* WYLikeListiewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYLikeListiewController.swift; sourceTree = "<group>"; };
+		EF65679B973920DC82D45BCE /* Pods_YichengTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YichengTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A63592CF46A8C803C824A5 /* Pods_Yicheng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yicheng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E382734B22253806007273EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E17ADD5DC71150EA2E9CD4B /* Pods_Yicheng.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E382735F22253808007273EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E382736A22253808007273EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F5613FBF82D50BAD020BD69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2A63592CF46A8C803C824A5 /* Pods_Yicheng.framework */,
+				EF65679B973920DC82D45BCE /* Pods_YichengTests.framework */,
+				62EE581C3F776E0491203878 /* Pods_YichengUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E305E09F223DDB560095AAF3 /* NetWorkingTool */ = {
+			isa = PBXGroup;
+			children = (
+				E3A88DE2223A2530005A0875 /* ZWAPIRequestTool.h */,
+				E3A88DE3223A253F005A0875 /* ZWAPIRequestTool.m */,
+				E3A88DD82239592D005A0875 /* ZWNetworkingManager.h */,
+				E3A88DD922395936005A0875 /* ZWNetworkingManager.m */,
+			);
+			path = NetWorkingTool;
+			sourceTree = "<group>";
+		};
+		E305E0A0223DDF3A0095AAF3 /* ZWHUDTool */ = {
+			isa = PBXGroup;
+			children = (
+				E305E0A1223DDF3A0095AAF3 /* ZWHUDTool.h */,
+				E305E0A2223DDF3A0095AAF3 /* ZWHUDTool.m */,
+			);
+			path = ZWHUDTool;
+			sourceTree = "<group>";
+		};
+		E305E0A4223DE6030095AAF3 /* WYUser */ = {
+			isa = PBXGroup;
+			children = (
+				E305E09B223D4E020095AAF3 /* WYUserManager.swift */,
+				E305E09D223D4E100095AAF3 /* WYUser.swift */,
+			);
+			path = WYUser;
+			sourceTree = "<group>";
+		};
+		E305E0AB224285990095AAF3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				E38995AB222AA83A00B830E0 /* WYMineViewController.swift */,
+				E38995BA222FDBCC00B830E0 /* WYMineHeaderView.xib */,
+				E38995B8222FDBB700B830E0 /* WYMineHeaderView.swift */,
+				E3DD8995224503CA0085102E /* WYFeedBackViewController.swift */,
+				E305E0AC224285FE0095AAF3 /* WYWalletViewController.swift */,
+				E3DD89992245155E0085102E /* WYRouteViewController.swift */,
+				E3DD899B2245157F0085102E /* WYRouteViewCell.xib */,
+				E3DD899D22451D310085102E /* WYRouteViewCell.swift */,
+				E3DD89AF2248C7F70085102E /* WYLikeListiewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		E382734522253806007273EF = {
+			isa = PBXGroup;
+			children = (
+				E382735022253806007273EF /* Yicheng */,
+				E382736522253808007273EF /* YichengTests */,
+				E382737022253808007273EF /* YichengUITests */,
+				E382734F22253806007273EF /* Products */,
+				E99750629CA1E2416CCBCA66 /* Pods */,
+				5F5613FBF82D50BAD020BD69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E382734F22253806007273EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E382734E22253806007273EF /* Yicheng.app */,
+				E382736222253808007273EF /* YichengTests.xctest */,
+				E382736D22253808007273EF /* YichengUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E382735022253806007273EF /* Yicheng */ = {
+			isa = PBXGroup;
+			children = (
+				E305E09F223DDB560095AAF3 /* NetWorkingTool */,
+				E305E0A0223DDF3A0095AAF3 /* ZWHUDTool */,
+				E305E0A4223DE6030095AAF3 /* WYUser */,
+				E305E0AB224285990095AAF3 /* Mine */,
+				E3DD89A92248BA180085102E /* 周边 */,
+				E3DD89AA2248BA3C0085102E /* 首页 */,
+				E3DD89AC2248BA7C0085102E /* 登录 */,
+				E3DD89AB2248BA540085102E /* 翻译 */,
+				E305E099223CE3430095AAF3 /* WYPOI.swift */,
+				E3DD89AD2248BECD0085102E /* WYTool.swift */,
+				E322A515223A9B1D00CEFF68 /* KeyFile.swift */,
+				E382735122253806007273EF /* AppDelegate.swift */,
+				E3A88DE122395F0F005A0875 /* Yicheng-Bridging-Header.h */,
+				E382735322253806007273EF /* ViewController.swift */,
+				E382735522253806007273EF /* Main.storyboard */,
+				E38995B6222E94F200B830E0 /* Mine.storyboard */,
+				E389959F222A458500B830E0 /* WYTabBarController.swift */,
+				E305E0A7223E355B0095AAF3 /* MyService.swift */,
+				E305E0A922413A230095AAF3 /* WYTabBar.swift */,
+				E3DD89A722476B9C0085102E /* WYCustomCameraViewController.swift */,
+				E382735822253808007273EF /* Assets.xcassets */,
+				E38995AD222AB96000B830E0 /* WYEmptyViewController.swift */,
+				E382735A22253808007273EF /* LaunchScreen.storyboard */,
+				E382735D22253808007273EF /* Info.plist */,
+			);
+			path = Yicheng;
+			sourceTree = "<group>";
+		};
+		E382736522253808007273EF /* YichengTests */ = {
+			isa = PBXGroup;
+			children = (
+				E382736622253808007273EF /* YichengTests.swift */,
+				E382736822253808007273EF /* Info.plist */,
+			);
+			path = YichengTests;
+			sourceTree = "<group>";
+		};
+		E382737022253808007273EF /* YichengUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E382737122253808007273EF /* YichengUITests.swift */,
+				E382737322253808007273EF /* Info.plist */,
+			);
+			path = YichengUITests;
+			sourceTree = "<group>";
+		};
+		E3DD89A92248BA180085102E /* 周边 */ = {
+			isa = PBXGroup;
+			children = (
+				E38273822229692B007273EF /* WYCollectionViewCell.xib */,
+				E38273812229692B007273EF /* WYCollectionViewCell.swift */,
+				E389959D222A404200B830E0 /* WYCollectionViewController.swift */,
+				E3DD899F22468E650085102E /* WYDetailPoiView.swift */,
+				E3DD89A122468E7D0085102E /* WYDetailPoiView.xib */,
+			);
+			path = "周边";
+			sourceTree = "<group>";
+		};
+		E3DD89AA2248BA3C0085102E /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				E38995A5222AA7C500B830E0 /* WYHomeViewController.swift */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		E3DD89AB2248BA540085102E /* 翻译 */ = {
+			isa = PBXGroup;
+			children = (
+				E38995A7222AA7D600B830E0 /* WYTranslateViewController.swift */,
+			);
+			path = "翻译";
+			sourceTree = "<group>";
+		};
+		E3DD89AC2248BA7C0085102E /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				E3A88DC622355157005A0875 /* WYLoginViewController.swift */,
+				E3A88DCC2236236B005A0875 /* WYCustomTextField.swift */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		E99750629CA1E2416CCBCA66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1FFDDB2DC2254A7542B568E /* Pods-Yicheng.debug.xcconfig */,
+				D180CA007DA5E0F327593146 /* Pods-Yicheng.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E382734D22253806007273EF /* Yicheng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E382737622253808007273EF /* Build configuration list for PBXNativeTarget "Yicheng" */;
+			buildPhases = (
+				2E39093C04A31CEC991F8FB0 /* [CP] Check Pods Manifest.lock */,
+				E382734A22253806007273EF /* Sources */,
+				E382734B22253806007273EF /* Frameworks */,
+				E382734C22253806007273EF /* Resources */,
+				651C9AC9A35C1534780E2092 /* [CP] Embed Pods Frameworks */,
+				F6CB77F17F14F590888332B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yicheng;
+			productName = Yicheng;
+			productReference = E382734E22253806007273EF /* Yicheng.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E382736122253808007273EF /* YichengTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E382737922253808007273EF /* Build configuration list for PBXNativeTarget "YichengTests" */;
+			buildPhases = (
+				E382735E22253808007273EF /* Sources */,
+				E382735F22253808007273EF /* Frameworks */,
+				E382736022253808007273EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E382736422253808007273EF /* PBXTargetDependency */,
+			);
+			name = YichengTests;
+			productName = YichengTests;
+			productReference = E382736222253808007273EF /* YichengTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E382736C22253808007273EF /* YichengUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E382737C22253808007273EF /* Build configuration list for PBXNativeTarget "YichengUITests" */;
+			buildPhases = (
+				E382736922253808007273EF /* Sources */,
+				E382736A22253808007273EF /* Frameworks */,
+				E382736B22253808007273EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E382736F22253808007273EF /* PBXTargetDependency */,
+			);
+			name = YichengUITests;
+			productName = YichengUITests;
+			productReference = E382736D22253808007273EF /* YichengUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E382734622253806007273EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "王焱";
+				TargetAttributes = {
+					E382734D22253806007273EF = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					E382736122253808007273EF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E382734D22253806007273EF;
+					};
+					E382736C22253808007273EF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E382734D22253806007273EF;
+					};
+				};
+			};
+			buildConfigurationList = E382734922253806007273EF /* Build configuration list for PBXProject "Yicheng" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E382734522253806007273EF;
+			productRefGroup = E382734F22253806007273EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E382734D22253806007273EF /* Yicheng */,
+				E382736122253808007273EF /* YichengTests */,
+				E382736C22253808007273EF /* YichengUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E382734C22253806007273EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38995BB222FDBCC00B830E0 /* WYMineHeaderView.xib in Resources */,
+				E38273842229692B007273EF /* WYCollectionViewCell.xib in Resources */,
+				E3DD89A222468E7D0085102E /* WYDetailPoiView.xib in Resources */,
+				E382735C22253808007273EF /* LaunchScreen.storyboard in Resources */,
+				E382735922253808007273EF /* Assets.xcassets in Resources */,
+				E382735722253806007273EF /* Main.storyboard in Resources */,
+				E3DD899C2245157F0085102E /* WYRouteViewCell.xib in Resources */,
+				E38995B7222E94F200B830E0 /* Mine.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E382736022253808007273EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E382736B22253808007273EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E39093C04A31CEC991F8FB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yicheng-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		651C9AC9A35C1534780E2092 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Yicheng/Pods-Yicheng-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yicheng/Pods-Yicheng-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6CB77F17F14F590888332B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Yicheng/Pods-Yicheng-resources.sh",
+				"${PODS_ROOT}/AMap2DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yicheng/Pods-Yicheng-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E382734A22253806007273EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38995B9222FDBB700B830E0 /* WYMineHeaderView.swift in Sources */,
+				E305E0A8223E355B0095AAF3 /* MyService.swift in Sources */,
+				E38995AE222AB96000B830E0 /* WYEmptyViewController.swift in Sources */,
+				E305E0AD224285FE0095AAF3 /* WYWalletViewController.swift in Sources */,
+				E389959E222A404200B830E0 /* WYCollectionViewController.swift in Sources */,
+				E322A516223A9B1D00CEFF68 /* KeyFile.swift in Sources */,
+				E3A88DC722355157005A0875 /* WYLoginViewController.swift in Sources */,
+				E38995A6222AA7C500B830E0 /* WYHomeViewController.swift in Sources */,
+				E3A88DE4223A253F005A0875 /* ZWAPIRequestTool.m in Sources */,
+				E3DD89AE2248BECD0085102E /* WYTool.swift in Sources */,
+				E3A88DCD2236236B005A0875 /* WYCustomTextField.swift in Sources */,
+				E305E0A3223DDF3A0095AAF3 /* ZWHUDTool.m in Sources */,
+				E38995A0222A458500B830E0 /* WYTabBarController.swift in Sources */,
+				E305E09A223CE3430095AAF3 /* WYPOI.swift in Sources */,
+				E382735422253806007273EF /* ViewController.swift in Sources */,
+				E38995A8222AA7D600B830E0 /* WYTranslateViewController.swift in Sources */,
+				E3DD89A822476B9D0085102E /* WYCustomCameraViewController.swift in Sources */,
+				E3DD8996224503CA0085102E /* WYFeedBackViewController.swift in Sources */,
+				E3A88DDA22395936005A0875 /* ZWNetworkingManager.m in Sources */,
+				E305E09C223D4E020095AAF3 /* WYUserManager.swift in Sources */,
+				E305E09E223D4E100095AAF3 /* WYUser.swift in Sources */,
+				E305E0AA22413A230095AAF3 /* WYTabBar.swift in Sources */,
+				E3DD89B02248C7F70085102E /* WYLikeListiewController.swift in Sources */,
+				E3DD89A022468E650085102E /* WYDetailPoiView.swift in Sources */,
+				E3DD899A2245155E0085102E /* WYRouteViewController.swift in Sources */,
+				E38995AC222AA83A00B830E0 /* WYMineViewController.swift in Sources */,
+				E3DD899E22451D320085102E /* WYRouteViewCell.swift in Sources */,
+				E38273832229692B007273EF /* WYCollectionViewCell.swift in Sources */,
+				E382735222253806007273EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E382735E22253808007273EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E382736722253808007273EF /* YichengTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E382736922253808007273EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E382737222253808007273EF /* YichengUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E382736422253808007273EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E382734D22253806007273EF /* Yicheng */;
+			targetProxy = E382736322253808007273EF /* PBXContainerItemProxy */;
+		};
+		E382736F22253808007273EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E382734D22253806007273EF /* Yicheng */;
+			targetProxy = E382736E22253808007273EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E382735522253806007273EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E382735622253806007273EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E382735A22253808007273EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E382735B22253808007273EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E382737422253808007273EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E382737522253808007273EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E382737722253808007273EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1FFDDB2DC2254A7542B568E /* Pods-Yicheng.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 89K6MJ2HAL;
+				INFOPLIST_FILE = Yicheng/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wy.yicheng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/wangyan/Desktop/yicheng/Yicheng/Yicheng/Yicheng-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		E382737822253808007273EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D180CA007DA5E0F327593146 /* Pods-Yicheng.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 89K6MJ2HAL;
+				INFOPLIST_FILE = Yicheng/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wy.yicheng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/wangyan/Desktop/yicheng/Yicheng/Yicheng/Yicheng-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		E382737A22253808007273EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YichengTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangyan.YichengTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yicheng.app/Yicheng";
+			};
+			name = Debug;
+		};
+		E382737B22253808007273EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YichengTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangyan.YichengTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yicheng.app/Yicheng";
+			};
+			name = Release;
+		};
+		E382737D22253808007273EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YichengUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangyan.YichengUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yicheng;
+			};
+			name = Debug;
+		};
+		E382737E22253808007273EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YichengUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangyan.YichengUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yicheng;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E382734922253806007273EF /* Build configuration list for PBXProject "Yicheng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E382737422253808007273EF /* Debug */,
+				E382737522253808007273EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E382737622253808007273EF /* Build configuration list for PBXNativeTarget "Yicheng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E382737722253808007273EF /* Debug */,
+				E382737822253808007273EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E382737922253808007273EF /* Build configuration list for PBXNativeTarget "YichengTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E382737A22253808007273EF /* Debug */,
+				E382737B22253808007273EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E382737C22253808007273EF /* Build configuration list for PBXNativeTarget "YichengUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E382737D22253808007273EF /* Debug */,
+				E382737E22253808007273EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E382734622253806007273EF /* Project object */;
+}

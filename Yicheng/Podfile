@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+target 'Yicheng' do
+    pod 'SnapKit'
+    pod 'IQKeyboardManagerSwift'
+    pod 'Alamofire'
+    pod 'AFNetworking'
+    pod 'MBProgressHUD'
+    pod 'Alamofire'
+    pod 'AMap2DMap'
+    pod 'AMapSearch'
+    pod 'AMapLocation'
+    pod 'Moya', '~> 12.0'
+    pod 'Kingfisher'
+    pod 'MJRefresh'
+end

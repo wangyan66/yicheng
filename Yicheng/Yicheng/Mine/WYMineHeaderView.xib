@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WYMineHeaderView" customModule="Yicheng" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1xq-xI-6Fh" customClass="WYMineHeaderView" customModule="Yicheng" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="196"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_bar2" translatesAutoresizingMaskIntoConstraints="NO" id="Jvc-eb-0w2">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="144" id="rr0-Rj-0ga"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1fJ-6t-YT1">
+                    <rect key="frame" x="34" y="117" width="305" height="79"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="79" id="CqZ-kq-fQA"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adam" translatesAutoresizingMaskIntoConstraints="NO" id="T5G-DM-kjK">
+                    <rect key="frame" x="156" y="79" width="63" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="8RU-jP-ggV"/>
+                        <constraint firstAttribute="width" constant="63" id="rLp-lG-Z2S"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.setMasksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="819156618@qq.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URG-lA-cib">
+                    <rect key="frame" x="129.5" y="176" width="116" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmp-J9-wVE">
+                    <rect key="frame" x="162" y="147" width="51.5" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="cwd-IT-AS4" firstAttribute="trailing" secondItem="1fJ-6t-YT1" secondAttribute="trailing" constant="36" id="4yz-BZ-9bj"/>
+                <constraint firstItem="cwd-IT-AS4" firstAttribute="bottom" secondItem="1fJ-6t-YT1" secondAttribute="bottom" id="BOc-Uh-hdY"/>
+                <constraint firstItem="Jvc-eb-0w2" firstAttribute="top" secondItem="cwd-IT-AS4" secondAttribute="top" id="Fv5-2O-ax4"/>
+                <constraint firstItem="Fmp-J9-wVE" firstAttribute="top" secondItem="T5G-DM-kjK" secondAttribute="bottom" constant="3" id="HM8-9o-FFR"/>
+                <constraint firstItem="Jvc-eb-0w2" firstAttribute="leading" secondItem="cwd-IT-AS4" secondAttribute="leading" id="IWD-85-09M"/>
+                <constraint firstItem="T5G-DM-kjK" firstAttribute="top" secondItem="Jvc-eb-0w2" secondAttribute="bottom" constant="-65" id="KSm-Am-fSx"/>
+                <constraint firstItem="URG-lA-cib" firstAttribute="centerX" secondItem="Fmp-J9-wVE" secondAttribute="centerX" id="YGQ-BW-vDO"/>
+                <constraint firstItem="1fJ-6t-YT1" firstAttribute="leading" secondItem="cwd-IT-AS4" secondAttribute="leading" constant="34" id="YLK-Bm-2sc"/>
+                <constraint firstItem="T5G-DM-kjK" firstAttribute="centerX" secondItem="Jvc-eb-0w2" secondAttribute="centerX" id="bT9-1N-uAk"/>
+                <constraint firstItem="Fmp-J9-wVE" firstAttribute="centerX" secondItem="T5G-DM-kjK" secondAttribute="centerX" id="hAf-8E-AWj"/>
+                <constraint firstItem="URG-lA-cib" firstAttribute="top" secondItem="Fmp-J9-wVE" secondAttribute="bottom" constant="5" id="uta-kk-yQQ"/>
+                <constraint firstItem="cwd-IT-AS4" firstAttribute="trailing" secondItem="Jvc-eb-0w2" secondAttribute="trailing" id="yzt-dB-4tJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="cwd-IT-AS4"/>
+            <point key="canvasLocation" x="826.39999999999998" y="-627.88605697151434"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="adam" width="1080" height="1080"/>
+        <image name="top_bar2" width="375" height="143"/>
+    </resources>
+</document>
